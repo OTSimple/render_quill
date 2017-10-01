@@ -1,2 +1,6 @@
 # render_quill
-Render quill doc json to HTML in Python
+Render Quill.js doc json to HTML in Python
+
+See Also:
+https://quilljs.com/
+https://github.com/quilljs/quill/

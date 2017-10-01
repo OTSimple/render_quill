@@ -23,6 +23,8 @@ class QuillRenderState:
                     text = '<em>' + text + '</em>'
                 elif attr == 'underline' and attrv:
                     text = '<u>' + text + '</u>'
+                elif attr == 'link':
+                    text = '<a href="' + attrv + '" target="_blank">' + text + '</a>'
                 elif attr in eolAttributes:
                     pass # handle at end of line
                 else:
